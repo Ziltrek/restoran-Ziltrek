@@ -1,0 +1,278 @@
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.container {
+    margin: 0px 166px;
+}
+.header {
+    background-image: url(img/bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navitem {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+
+    margin-right: 25px;
+    transition: color 0.3s linear;
+}
+.navitem:hover {
+    color:#ff5656;
+}
+.cart {
+    position: relative;
+    border-right: 1px solid #fff;
+    padding-right: 10px;
+    height: 50px;
+    
+}
+.cartimg {
+    position: absolute;
+    top: 18px;
+    right: 7px;
+}
+.num {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+
+    transition: color 0.3s linear;
+
+}
+.num:hover {
+    color:#ff5656;
+}
+
+.phonetext {
+    font-size: 14px;
+    font-weight: 400px;
+    color: #fff;
+}
+.phoneholder {
+    display: flex;
+    align-items: center;
+}
+.button {
+    background-color: #FF7400;
+    padding: 14px 17px;
+
+    transition: background-color 0.2s linear;
+    
+}
+.button:hover {
+    background-color:#813a00;
+}
+.button a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+.headerdown {
+    position: relative;
+    margin-top: 222px;
+    margin-bottom: 12px;
+
+}
+.headertitle {
+    color: #D67E35;
+    font-family: "Tinos", serif;
+    font-size: 50px;
+    font-weight: 400;  
+
+    text-align: center;
+    position: absolute;
+    left: 140px;
+
+    
+
+}
+.headersubtitle {
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.headersuptitle {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+
+}
+.headersuptitle:after {
+ position: absolute;
+ content: '';
+ height: 2px;
+ width: 61px;
+ background-color: #fff;
+ top: 170px;
+ left: 85px;
+}
+.headersuptitle::before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 170px;
+    left: 335px;
+   }
+.headerbutton {
+    background-color: #FF7400;
+    padding: 14px 28px;
+    
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+
+    transition: background-color 0.2s linear;
+}
+.headerbutton:hover {
+    background-color:#813a00;
+}
+
+.card {
+box-shadow: 10px 10px 40px 20px #0000001a; 
+width: 349px;
+margin-right: 31px;
+background-color: #fff;
+margin-top: -80px;
+padding: 0px 10px;
+padding-bottom: 40px;
+}
+.cardimge {
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+}
+.cardtitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: "Tinos", serif;
+    font-size: 26px;
+    font-weight: 400; 
+}
+.cardtitle span {
+    color: #BC9060
+    
+}
+.carddesc {
+    text-align: center;
+    font-family: "Tinos", serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #656363;
+}
+.cardsholder {
+    display: flex;
+    justify-content: center;
+
+}
+.historytitle {
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    width: 444px;
+}
+.historytitle span {
+    color: #BC9060
+    
+    
+}
+.historydesc {
+    
+    font-size: 16px;
+    text-align: center;
+    color: #656363;
+    width: 444px;
+
+}
+.history {
+margin-top:166px;
+width: 1108px;
+display: flex;
+justify-content: space-between;
+
+}
+.historynamber {
+    width: 444px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 25px;
+
+}
+.historynamber span {
+    color: #BC9060;
+    font-size: 40px;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+}
+.namberitem {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 60px;
+    text-align: center;
+}
+.historyimg {
+    width: 539px;
+    
+}
+.historyad {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.containerhistory {
+    width: 444px;
+}
+.footer {
+   height: 357px; 
+    background-image: url(img/Group4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    margin-top: 150px;
+    
+}
+.footertitle {
+    font-family: "Tinos", serif;
+    color: #f99139;
+    font-size: 52px;
+    font-weight: 400;
+}
+.footerdesc {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.footerve {
+    width: 70%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
